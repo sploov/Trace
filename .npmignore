@@ -1,0 +1,6 @@
+src/
+tsconfig.json
+.gitignore
+CONTRIBUTING.md
+example.ts
+test.ts

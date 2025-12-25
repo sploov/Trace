@@ -1,0 +1,49 @@
+{
+  "name": "trace",
+  "version": "1.0.0",
+  "description": "Trace is a lightweight execution tracing and flow-visualization tool that helps developers understand how code actually runs across time, state, and events.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./middleware": "./dist/integrations/Express.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sploov/Trace.git"
+  },
+  "keywords": [
+    "trace",
+    "tracing",
+    "telemetry",
+    "visualization",
+    "async-safe",
+    "performance",
+    "node",
+    "typescript"
+  ],
+  "author": "Sploov",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sploov/Trace/issues"
+  },
+  "homepage": "https://github.com/sploov/Trace#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "picocolors": "^1.1.1"
+  }
+}
