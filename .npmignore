@@ -2,5 +2,9 @@ src/
 tsconfig.json
 .gitignore
 CONTRIBUTING.md
+.github/
+.vscode/
 example.ts
 test.ts
+*.ts
+!dist/**/*.d.ts
