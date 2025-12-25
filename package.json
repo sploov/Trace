@@ -1,5 +1,5 @@
 {
-  "name": "trace",
+  "name": "@sploov/trace",
   "version": "1.0.0",
   "description": "Trace is a lightweight execution tracing and flow-visualization tool that helps developers understand how code actually runs across time, state, and events.",
   "main": "dist/index.js",
